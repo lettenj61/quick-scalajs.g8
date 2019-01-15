@@ -1,6 +1,6 @@
-enablePlugns(ScalaJSBundlerPlugin)
+enablePlugins(ScalaJSBundlerPlugin)
 
-lazy val scalaV = "$scalaVersion"
+lazy val scalaV = "$scalaVersion$"
 
 // Project information
 scalaVersion  := scalaV
