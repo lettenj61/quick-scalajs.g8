@@ -35,8 +35,8 @@ emitSourceMaps := false
 requireJsDomEnv in Test := true
 */
 
-scalaJSLinkerConfig ~= { cf =>
-  cf.withSourceMap(false)
+scalaJSLinkerConfig ~= { lc =>
+  lc.withSourceMap(false)
     .withModuleKind(ModuleKind.CommonJSModule)
 }
 
